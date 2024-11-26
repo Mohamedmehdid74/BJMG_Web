@@ -1,0 +1,155 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor general */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de hero */
+.hero {
+    background: #3498DB;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero .btn-primary {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #1A252F;
+}
+
+/* Sección sobre la empresa */
+.about {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about img {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+}
+
+/* Sección de servicios */
+.services {
+    background: #ecf0f1;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.service-item {
+    margin: 1rem 0;
+}
+
+/* Galería */
+.gallery {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+/* Formulario de contacto */
+.contact {
+    background: #2C3E50;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #3498DB;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #1A252F;
+}
+
+/* Pie de página */
+footer {
+    background: #2C3E50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
